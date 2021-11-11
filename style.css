@@ -63,13 +63,22 @@ kbd {
   color: #ffc600;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
+
+  div{
+    align-content: center;
+  }
+
   .keys {
     height: auto;
     justify-content: space-evenly;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   button{
+    margin-bottom: 0px;
+    margin-top: 0px;
     height: 7em;
   }
 
