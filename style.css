@@ -7,6 +7,7 @@ html {
 }
 
 div {
+  padding-top: 20%;
   align-content: center;
 }
 
@@ -73,6 +74,7 @@ kbd {
 
   div{
     align-content: center;
+    padding-top: 30%;
   }
 
   .keys {
@@ -86,6 +88,8 @@ kbd {
     margin-bottom: 0px;
     margin-top: 0px;
     height: 7em;
+    align-content: center;
+    justify-content: center;
   }
 
   kbd {
