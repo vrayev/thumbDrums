@@ -74,7 +74,8 @@ kbd {
 
   div{
     align-content: center;
-    padding-top: 30%;
+    padding-top: 20%;
+    padding-bottom: 10%;
   }
 
   .keys {
