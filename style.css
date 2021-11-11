@@ -4,6 +4,10 @@ html {
   background-size: cover;
 }
 
+div {
+  align-content: center;
+}
+
 body,html {
   margin: 0;
   padding: 0;
