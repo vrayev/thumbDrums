@@ -15,7 +15,7 @@ button{
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   height: 15rem;
   width:8em;
   background: rgba(0, 0, 0, 0.541);
@@ -23,7 +23,7 @@ button{
 
 .keys {
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   min-height: 100vh;
   flex-wrap: wrap;
   align-items: center;
@@ -61,4 +61,19 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+@media (max-width: 500px) {
+  .keys {
+    height: auto;
+    justify-content: space-evenly;
+  }
+
+  button{
+    height: 7em;
+  }
+
+  kbd {
+    font-size: 0%;
+  }
 }
