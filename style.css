@@ -6,9 +6,13 @@ html {
   background-attachment: fixed;
 }
 
+img{
+  display: block;
+}
+
 div {
-  padding-top: 20%;
   align-content: center;
+  justify-content: center;
 }
 
 body,html {
@@ -96,4 +100,32 @@ kbd {
   kbd {
     font-size: 0%;
   }
+}
+
+@media (orientation:landscape) and (max-height:400px){
+  div{
+    align-content: center;
+    /* padding-top: 20%; */
+    
+  }
+
+  .keys {
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  button{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 7em;
+    align-content: center;
+    justify-content: center;
+  }
+
+  kbd {
+    font-size: 0%;
+  }
+}
 }
