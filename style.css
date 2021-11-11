@@ -2,6 +2,8 @@ html {
   font-size: 10px;
   background: url('./background.jpg') bottom center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div {
@@ -28,7 +30,7 @@ button{
 .keys {
   display: flex;
   /* flex: 1; */
-  min-height: 100vh;
+  /* height: 100vh; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
